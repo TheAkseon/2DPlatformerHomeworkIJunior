@@ -1,18 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private Player _target;
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        transform.position = new Vector3(_target.transform.position.x, _target.transform.position.y, transform.position.z);
     }
 }
