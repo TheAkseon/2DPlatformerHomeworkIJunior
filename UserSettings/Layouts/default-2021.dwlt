@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 18
+  controlID: 78
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 51
+  controlID: 17
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 52
+  controlID: 18
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -428,22 +428,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Prefabs/Game
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Prefabs/Game
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\abqwe\Documents\GitHub\2DPlatformerHomeworkIJunior
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 38620000
-    m_LastClickedID: 25144
-    m_ExpandedIDs: 00000000e6610000e8610000ea610000ec610000ee610000f0610000366200003a62000000ca9a3bffffff7f
+    m_SelectedIDs: 1e620000
+    m_LastClickedID: 25118
+    m_ExpandedIDs: 000000006a6100006c6100006e61000070610000726100007461000076610000ea61000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -471,7 +471,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e6610000e8610000ea610000ec610000ee610000f0610000
+    m_ExpandedIDs: 000000006a6100006c6100006e61000070610000726100007461000076610000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -562,7 +562,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 603
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -601,21 +601,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: ce22ffffe463ffffe465ffff4876ffff5079ffff0e7dffffa87effffbc87ffff4c88ffffc688ffffa88affffc48cffffac91ffffceacffff3eafffff9cb1ffffd0b7ffff82c6ffff68cdffff8eceffffdccfffff3cd5ffffd2d7ffffb0e7ffff26fbffff7860000082600000bc850000ca870000c28f0000ba9500005a960000d696000088970000a29a00000e9b0000fe9c0000129d0000609e00007ea70000b0a70000
+      m_ExpandedIDs: 26fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Collider (1)
-        m_OriginalName: Collider (1)
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 42826
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -702,7 +702,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 0
-      snapOffset: {x: 0, y: 25}
+      snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Open Tile Palette
@@ -724,7 +724,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 25}
+      snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-transform-toolbar
@@ -872,9 +872,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.77655, y: -2.2687533, z: -78.291084}
+    m_Target: {x: -0.5757141, y: -9.84083, z: -78.156456}
     speed: 2
-    m_Value: {x: 1.9819435, y: -2.4659853, z: -78.30389}
+    m_Value: {x: -0.32924682, y: -9.430597, z: -78.14875}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -925,9 +925,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 27.163774
+    m_Target: 17.893105
     speed: 2
-    m_Value: 28.443743
+    m_Value: 17.122587
   m_Ortho:
     m_Target: 1
     speed: 2

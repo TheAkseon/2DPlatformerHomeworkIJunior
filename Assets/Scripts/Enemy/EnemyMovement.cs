@@ -1,8 +1,7 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Rigidbody2D), typeof(Collider2D))]
-public class EnemyController : MonoBehaviour
+public class EnemyMovement : MonoBehaviour
 {
     [SerializeField] private float _moveSpeed = 1.0f;
     [SerializeField] private LayerMask _ground;
@@ -40,13 +39,5 @@ public class EnemyController : MonoBehaviour
     {
         transform.localScale = new Vector2(transform.localScale.x * -1, transform.localScale.y);
         _moveSpeed *= -1;
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if(collision.TryGetComponent<Player>(out Player player))
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        }
     }
 }
